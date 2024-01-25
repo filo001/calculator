@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">iMan Calculator</a></h1>
+    <div id="container">
+        <input class="screen" readonly>
+        <div id="buttons">  
+            <div class="operatorButton" onclick="operator('+')">+</div>
+            <div class="calcButton" onclick="inputValue(7)">7</div>
+            <div class="calcButton" onclick="inputValue(8)">8</div>
+            <div class="calcButton" onclick="inputValue(9)">9</div>
+            <div class="operatorButton" onclick="operator('-')">-</div>
+            <div class="calcButton" onclick="inputValue(4)">4</div>
+            <div class="calcButton" onclick="inputValue(5)">5</div>
+            <div class="calcButton" onclick="inputValue(6)">6</div>
+            <div class="operatorButton" onclick="operator('x')">x</div>
+            <div class="calcButton" onclick="inputValue(1)">1</div>
+            <div class="calcButton" onclick="inputValue(2)">2</div>
+            <div class="calcButton" onclick="inputValue(3)">3</div>
+            <div class="operatorButton" onclick="operator('/')">÷</div>
+            <div class="calcButton" onclick="evaluateAnswer()">=</div>
+            <div class="calcButton" onclick="inputValue(0)">0</div>
+            <div class="calcButton" onclick="inputValue('.')">.</div>
+            <div class="operatorButton" onclick="clearScreen()">C</div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
